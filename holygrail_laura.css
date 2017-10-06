@@ -1,0 +1,51 @@
+html,body{
+margin: 0;
+padding: 0;
+}
+
+
+body{
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+
+header{
+  height: 10vh;
+  background: #ccc;
+  text-align: center;
+
+}
+.container{
+  display: flex;
+  flex-grow: 1;
+}
+nav{
+  width: 30vh;
+  background: #c0cfd2;
+  text-align: center;
+  order: 3;
+
+}
+
+main{
+  padding: 10vh;
+  background: #783;
+  text-align: center;
+  order: 2;
+  flex-grow: 1;
+}
+
+aside{
+  width: 30vh;
+  background: #c0cfd2;
+  text-align: center;
+  order: 1;
+}
+
+footer{
+  height: 10vh;
+  background: #ccc;
+  text-align: center;
+}
